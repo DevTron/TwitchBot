@@ -1,0 +1,19 @@
+{
+  "name": "xpbot",
+  "version": "1.0.0",
+  "description": "XP Coin | Twitch Bot",
+  "main": "app.js",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "tmi.js": "^1.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.11"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node node_modules/nodemon/bin/nodemon.js app.js"
+  },
+  "author": "TheDevTron",
+  "license": "ISC"
+}
